@@ -17,9 +17,20 @@ span{
     font-size: 2rem;
 }
 */
- .titulo span{
+ h1.titulo span{
     font-size: 2rem;
-} /*se puede poner de esta manera tambien, buscar un span dentro de una clase
+    color: red;
+}
+
+.titulo span{
+    font-size: 2rem;
+    color: blue;
+}/*se puede poner de esta manera tambien, buscar un span dentro de una clase
+
+.titulo span{
+    font-size: 2rem;
+    color: blue!important;
+}puede ser tambien asi, ubicar !important despues del colot
 
  h1 span{
     font-size: 2rem;
